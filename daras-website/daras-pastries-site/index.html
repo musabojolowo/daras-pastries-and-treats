@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4a2419">
+  <meta name="description" content="Dara's Pastries and Treats: freshly made cakes, pastries, snacks, small chops and food trays. Homemade with love.">
+  <title>Dara’s Pastries and Treats | Homemade with Love</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">Freshly made with love · Orders for every occasion</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Dara's Pastries and Treats home">
+      <span class="brand-mark">D<span>♥</span></span>
+      <span class="brand-copy"><strong>Dara’s</strong><small>PASTRIES & TREATS</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="navigation" class="navigation">
+      <a href="#menu">Our menu</a>
+      <a href="#about">Our story</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-order" href="https://wa.me/2347047232978?text=Hello%20Dara%E2%80%99s%20Pastries%20and%20Treats%2C%20I%E2%80%99d%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener">Order on WhatsApp ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="eyebrow-dot"></span> HOMEMADE WITH LOVE</span>
+        <h1>A little sweetness.<br><em>A lot of happiness.</em></h1>
+        <p>From celebration cakes to savoury bites and delicious food trays, we make every order feel special.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#menu">Explore the menu <span>↓</span></a>
+          <a class="button button-light" href="https://wa.me/2347047232978?text=Hello%20Dara%E2%80%99s%20Pastries%20and%20Treats%2C%20I%E2%80%99d%20like%20to%20place%20an%20order." target="_blank" rel="noopener">Order on WhatsApp <span>↗</span></a>
+        </div>
+        <div class="hero-note"><span class="note-heart">♥</span><span><strong>Made fresh, made with care</strong><small>For everyday cravings and your special moments.</small></span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-wrap"><img src="assets/birthday-cake.jpg" alt="Celebration cake with chocolate drizzle"></div>
+        <div class="floating-card"><span>✦</span><div><strong>Sweet moments</strong><small>Made memorable</small></div></div>
+        <div class="hero-sticker">BAKED<br>WITH LOVE <span>♥</span></div>
+      </div>
+    </section>
+
+    <section class="promise-strip" aria-label="Our promises">
+      <div><span class="promise-icon">♡</span><span><strong>Freshly made</strong><small>Prepared with care</small></span></div>
+      <div><span class="promise-icon">✧</span><span><strong>Quality ingredients</strong><small>Great taste, every time</small></span></div>
+      <div><span class="promise-icon">⌁</span><span><strong>Made for your occasion</strong><small>Custom requests welcome</small></span></div>
+    </section>
+
+    <section class="menu-section section-pad" id="menu">
+      <div class="section-heading">
+        <div><span class="eyebrow">A TASTE OF DARA’S</span><h2>Something delicious<br><em>for every craving.</em></h2></div>
+        <p>Explore our favourites, then message us to ask about prices, flavours, availability and custom orders.</p>
+      </div>
+
+      <div class="category-tabs" role="group" aria-label="Filter menu">
+        <button class="tab active" data-filter="all">Everything</button>
+        <button class="tab" data-filter="cakes">Cakes & cupcakes</button>
+        <button class="tab" data-filter="pastries">Pastries & snacks</button>
+        <button class="tab" data-filter="trays">Food trays</button>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card" data-category="cakes">
+          <div class="product-image"><img src="assets/birthday-cake.jpg" alt="Chocolate-drip celebration cake" loading="lazy"><span class="product-tag">Made to order</span></div>
+          <div class="product-info"><div><h3>Celebration Cakes</h3><p>Vanilla · Chocolate · Red velvet · Designer</p></div><button class="ask-link" data-product="Celebration cake">Enquire ↗</button></div>
+        </article>
+        <article class="product-card" data-category="cakes">
+          <div class="product-image"><img src="assets/cupcakes.jpg" alt="Decorated cupcakes" loading="lazy"></div>
+          <div class="product-info"><div><h3>Cupcakes</h3><p>Regular and speciality designs</p></div><button class="ask-link" data-product="Cupcakes">Enquire ↗</button></div>
+        </article>
+        <article class="product-card" data-category="pastries">
+          <div class="product-image"><img src="assets/meat-pies.jpg" alt="Golden meat pies" loading="lazy"></div>
+          <div class="product-info"><div><h3>Meat & Chicken Pies</h3><p>Golden, flaky pastry favourites</p></div><button class="ask-link" data-product="Meat or chicken pies">Enquire ↗</button></div>
+        </article>
+        <article class="product-card" data-category="pastries">
+          <div class="product-image"><img src="assets/puff-puff.jpg" alt="Fresh puff puff" loading="lazy"></div>
+          <div class="product-info"><div><h3>Puff Puff</h3><p>A classic treat for sharing</p></div><button class="ask-link" data-product="Puff puff">Enquire ↗</button></div>
+        </article>
+        <article class="product-card" data-category="pastries">
+          <div class="product-image"><img src="assets/donuts.jpg" alt="Decorated donuts" loading="lazy"></div>
+          <div class="product-info"><div><h3>Donuts</h3><p>Sweet bites for any time</p></div><button class="ask-link" data-product="Donuts">Enquire ↗</button></div>
+        </article>
+        <article class="product-card" data-category="pastries">
+          <div class="product-image"><img src="assets/spring-rolls.jpg" alt="Golden spring rolls" loading="lazy"></div>
+          <div class="product-info"><div><h3>Small Chops</h3><p>Spring rolls, samosas and finger foods</p></div><button class="ask-link" data-product="Small chops">Enquire ↗</button></div>
+        </article>
+        <article class="product-card" data-category="trays">
+          <div class="product-image"><img src="assets/jollof-rice-chicken.jpg" alt="Jollof rice and chicken food tray" loading="lazy"><span class="product-tag">Party favourite</span></div>
+          <div class="product-info"><div><h3>Jollof Rice & Chicken</h3><p>Food trays for sharing and events</p></div><button class="ask-link" data-product="Jollof rice and chicken food tray">Enquire ↗</button></div>
+        </article>
+        <article class="product-card" data-category="trays">
+          <div class="product-image"><img src="assets/fried-rice-chicken.jpg" alt="Fried rice and chicken food tray" loading="lazy"></div>
+          <div class="product-info"><div><h3>Fried Rice & Chicken</h3><p>Freshly prepared food trays</p></div><button class="ask-link" data-product="Fried rice and chicken food tray">Enquire ↗</button></div>
+        </article>
+        <article class="product-card" data-category="trays">
+          <div class="product-image"><img src="assets/spaghetti-chicken.jpg" alt="Spaghetti and chicken food tray" loading="lazy"></div>
+          <div class="product-info"><div><h3>Spaghetti & Chicken</h3><p>A tasty tray for your gathering</p></div><button class="ask-link" data-product="Spaghetti and chicken food tray">Enquire ↗</button></div>
+        </article>
+      </div>
+      <div class="menu-footnote">Also available: sausage rolls, fish rolls, chin chin, bento cakes, foil cakes, noodles with chicken, white rice with stew, assorted pastry trays, extra sauces and custom cake writing.</div>
+    </section>
+
+    <section class="custom-section" id="about">
+      <div class="custom-art"><img src="assets/red-velvet-cake.jpg" alt="A slice of red velvet cake" loading="lazy"><span class="art-stamp">A little joy<br>in every bite ♥</span></div>
+      <div class="custom-copy"><span class="eyebrow">YOUR OCCASION, OUR TREATS</span><h2>Have something<br><em>special in mind?</em></h2><p>Birthday cakes, party trays, office treats or a little something just because. Tell us what you have in mind and we’ll help you plan your order.</p><ul><li>Custom writing on cakes</li><li>Special flavours and designs</li><li>Food trays for gatherings</li><li>Special requests welcome</li></ul><a class="button button-dark" href="https://wa.me/2347047232978?text=Hello%20Dara%E2%80%99s%20Pastries%20and%20Treats%2C%20I%20have%20a%20custom%20order%20enquiry." target="_blank" rel="noopener">Discuss a custom order ↗</a></div>
+    </section>
+
+    <section class="closing-cta section-pad" id="contact">
+      <span class="eyebrow">YOUR NEXT FAVOURITE BITE IS A MESSAGE AWAY</span>
+      <h2>Let’s make something<br><em>delicious happen.</em></h2>
+      <p>Message Dara’s to ask about the menu, pricing, availability or delivery around Lagos.</p>
+      <a class="button button-cream" href="https://wa.me/2347047232978?text=Hello%20Dara%E2%80%99s%20Pastries%20and%20Treats%2C%20please%20send%20me%20more%20information%20about%20your%20menu." target="_blank" rel="noopener"><span class="whatsapp-mark">◉</span> Chat with us on WhatsApp ↗</a>
+      <div class="contact-number">WhatsApp / Call: <strong>07047232978</strong></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">D<span>♥</span></span><span class="brand-copy"><strong>Dara’s</strong><small>PASTRIES & TREATS</small></span></a>
+    <p>Homemade with love. Made to make your day sweeter.</p>
+    <span>© <span id="year"></span> Dara’s Pastries and Treats</span>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/2347047232978?text=Hello%20Dara%E2%80%99s%20Pastries%20and%20Treats!" target="_blank" rel="noopener" aria-label="Chat with Dara's on WhatsApp">◉</a>
+  <script src="script.js"></script>
+</body>
+</html>
